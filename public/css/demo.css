@@ -1,0 +1,63 @@
+.table td { 
+    border: 0;
+    text-align: center;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border: 2px solid #000000;
+    background: #f5b2b2;
+    text-align: center;
+}
+
+#cardtable tr:nth-child(even) {
+    background: #CCC
+}
+
+#cardtable tr:nth-child(odd) {
+    background: #FFF
+}
+
+#addform{
+    margin-bottom: 10px;
+}
+
+.table{ 
+    padding: 0; 
+}
+
+.title{ 
+    padding: 20px;
+}
+
+.onTarget { 
+    background: rgba(255, 192, 203, 0.8) 
+}
+
+#errorMessagePhone, #errorMessageEmail, #errorMessageCnName { 
+    color: red 
+}
+
+
+#dialog-addconfirm {
+    background-color: #CCC;
+    padding: 10px;
+    border: 2px solid darkolivegreen;
+    padding-bottom: 20px;
+}
+
+h3 {
+    border-bottom: 2px solid darkolivegreen;
+}
+
+table .btn:hover {
+    width: 105%;
+    height: 105%;
+    transition: linear 1s;
+}
+
+tr:hover {
+    transition: 0.2s linear;
+    font-weight: 700;
+    background: skyblue;
+}
